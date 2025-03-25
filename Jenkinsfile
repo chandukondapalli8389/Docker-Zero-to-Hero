@@ -10,7 +10,7 @@ pipeline {
                    docker build -t python-web-app:latest .
                 '''
                 }
-             }
+            }
         }
     }  
-}             
+}
