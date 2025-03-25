@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     stages {
-        stage{"Build docker image"} {
+        stage{"Build Docker image"} {
+            steps {
            script {
                sh'''
                    cd examples/python-web-app
